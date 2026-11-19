@@ -1,0 +1,29 @@
+[
+ {
+  "shape": "Split Studio",
+  "theme": "specimen",
+  "axes": "light/high-contrast-serif/cool",
+  "hero": "Index",
+  "nav": "edge-aligned",
+  "footer": "colophon block",
+  "imagery": "photographs, user portrait 1, duotone",
+  "photos": [],
+  "entry": "none",
+  "fingerprint": "split-studio/index/edge/colophon/figs-rows-table-trio",
+  "sections": [
+   "hero-index",
+   "split-figures",
+   "band-rows",
+   "split-table",
+   "grid-3",
+   "rows",
+   "band-close",
+   "footer"
+  ],
+  "signature": "name in Bodoni over ink-blue guides beside the portrait plate",
+  "waived": [],
+  "prompt": "personal portfolio from resume, editorial, recruiters",
+  "date": "2026-11-19",
+  "mode": "build"
+ }
+]

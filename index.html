@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Himani Nizam, software engineer</title>
+  <meta name="description" content="Himani Nizam, software engineer in Richmond, Virginia. React, TypeScript, Java and Spring Boot for trading and ERP systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400&family=Geist:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="nav__mark" href="#top" aria-label="Himani Nizam, home">HN</a>
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li class="nav__wide"><a href="#voya">Work</a></li>
+          <li class="nav__wide"><a href="#projects">Projects</a></li>
+          <li><a href="https://github.com/nizamhimani" rel="me">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/himanias87/" rel="me">LinkedIn</a></li>
+          <li><a href="mailto:nizamhimani16@gmail.com">Email</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="name">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1 id="name"><span class="guided">Himani Nizam</span></h1>
+          <p class="lead">Software engineer building trading and ERP systems, from React to Spring Boot.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="mailto:nizamhimani16@gmail.com">Email me</a>
+            <a class="btn btn--secondary" href="Himani_Nizam_Resume.pdf" download>Download resume</a>
+          </div>
+          <ul class="index" aria-label="Experience">
+            <li><a href="#voya">Voya Financial</a><span>Software engineer</span><span class="num">2025 to now</span></li>
+            <li><a href="#cognizant">Cognizant</a><span>Software engineer</span><span class="num">2021 to 2022</span></li>
+            <li><a href="#projects">The SmartBridge</a><span>Machine learning intern</span><span class="num">2020</span></li>
+          </ul>
+        </div>
+        <figure class="portrait">
+          <div class="plate" data-slot="portrait" data-alt="Himani Nizam, head and shoulders, against a plain light wall">
+            <img src="Professiona_Photo.jpeg" width="800" height="800" alt="Himani Nizam in a black pinstripe blazer, smiling" fetchpriority="high">
+          </div>
+          <figcaption>Richmond, Virginia</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="case" id="voya" aria-labelledby="voya-h">
+      <div class="container case__grid case__grid--lead">
+        <div class="case__text">
+          <h2 id="voya-h">Trading services that hold at peak</h2>
+          <p class="meta">Voya Financial, software engineer since July 2025</p>
+          <p>I build React and TypeScript screens and the microservices behind them for Voya’s portfolio management module. Azure Service Bus and Redis decouple the trading platform, and a backend-for-frontend layer joins Apex, FactSet and QUODD into one view for advisors.</p>
+        </div>
+        <dl class="figs">
+          <div><dt>Fewer peak-hour timeouts</dt><dd class="num">30%</dd></div>
+          <div><dt>Faster p95 response time</dt><dd class="num">20%</dd></div>
+          <div><dt>REST endpoints built for advisors</dt><dd class="num">10+</dd></div>
+          <div><dt>Messages lost in high-volume trading</dt><dd class="num">0</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="band" id="skills" aria-labelledby="skills-h">
+      <div class="container rows">
+        <h2 id="skills-h">The stack I work in</h2>
+        <dl class="rows__list">
+          <div><dt>Languages</dt><dd>Java, TypeScript, JavaScript, SQL</dd></div>
+          <div><dt>Frontend</dt><dd>React, Redux, React Query, HTML, CSS</dd></div>
+          <div><dt>Backend and APIs</dt><dd>Spring Boot, Spring Security, REST, microservices, backend-for-frontend, JUnit, Mockito</dd></div>
+          <div><dt>Data and messaging</dt><dd>PostgreSQL, MongoDB, Redis, Kafka, RabbitMQ, Azure Service Bus</dd></div>
+          <div><dt>Cloud and delivery</dt><dd>AWS, Docker, Kubernetes, OpenShift, Azure DevOps</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="case" id="cognizant" aria-labelledby="cog-h">
+      <div class="container case__grid case__grid--even">
+        <div class="case__text">
+          <h2 id="cog-h">One ERP for six departments</h2>
+          <p class="meta">Cognizant, software engineer, June 2021 to December 2022</p>
+          <p>A cloud ERP in Java and Spring Boot for inventory, sales, procurement, finance, HR and CRM. OAuth2 guards every REST API, Kafka and RabbitMQ carry messages between services, and it all ships on Docker and Kubernetes on AWS.</p>
+        </div>
+        <table class="ledger">
+          <caption class="visually-hidden">Results of the Cognizant ERP</caption>
+          <thead><tr><th scope="col">Measure</th><th scope="col">Change</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Manual intervention</th><td class="num">&minus;50%</td></tr>
+            <tr><th scope="row">Query execution time</th><td class="num">&minus;35%</td></tr>
+            <tr><th scope="row">Deployment time</th><td class="num">&minus;70%</td></tr>
+            <tr><th scope="row">Uptime</th><td class="num">99.99%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="proj-h">
+      <div class="container">
+        <h2 id="proj-h">Three things I built</h2>
+        <ul class="trio">
+          <li>
+            <h3>AI code review agent</h3>
+            <p class="meta">Spring Boot, Kafka, Claude API</p>
+            <p>Reviews GitHub pull requests for style, security and logic, cutting manual review turnaround by about 20 to 30%. I benchmarked Claude against five open-source models on accuracy, latency and cost.</p>
+          </li>
+          <li>
+            <h3>Inventory management system</h3>
+            <p class="meta">React, MongoDB</p>
+            <p>Tracks products, categories and suppliers in real time, with sign-in and full create, read, update and delete over a MongoDB API.</p>
+          </li>
+          <li>
+            <h3>Financial risk classifier</h3>
+            <p class="meta">The SmartBridge, 2020</p>
+            <p>Compared KNN, Naive Bayes and SVM on employee demographic and employment data. SVM led, at 72.14% accuracy.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="study" id="education" aria-labelledby="edu-h">
+      <div class="container study__grid">
+        <h2 id="edu-h">Two degrees, two countries</h2>
+        <ol class="study__list" reversed>
+          <li>
+            <h3>Master of Science, Computer Science</h3>
+            <p>University of Texas at Arlington</p>
+            <p class="meta num">Arlington, Texas, 2023 to 2024</p>
+          </li>
+          <li>
+            <h3>Bachelor of Technology, Information Technology</h3>
+            <p>Sreenidhi Institute of Science and Technology</p>
+            <p class="meta num">Hyderabad, Telangana, 2018 to 2022</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="close" id="contact" aria-labelledby="contact-h">
+      <div class="container">
+        <h2 id="contact-h">Write to me</h2>
+        <a class="close__email" href="mailto:nizamhimani16@gmail.com">nizamhimani16@gmail.com</a>
+        <ul class="close__links">
+          <li><a class="btn btn--secondary" href="https://www.linkedin.com/in/himanias87/" rel="me">LinkedIn</a></li>
+          <li><a class="btn btn--secondary" href="https://github.com/nizamhimani" rel="me">GitHub</a></li>
+          <li><a class="btn btn--secondary" href="Himani_Nizam_Resume.pdf" download>Resume, PDF</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="container">
+      <p>Himani Nizam, software engineer. Set in Bodoni Moda and Geist. Every figure on this page comes from my resume.</p>
+    </div>
+  </footer>
+
+<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+</body>
+</html>
